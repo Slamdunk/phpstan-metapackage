@@ -1,0 +1,13 @@
+{
+    "name": "slam/phpstan-metapackage",
+    "description": "Slam PHPStan metapackage",
+    "type": "metapackage",
+    "license": "MIT",
+    "require": {
+        "phpstan/phpstan": "*",
+        "phpstan/phpstan-doctrine": "*",
+        "phpstan/phpstan-phpunit": "*",
+        "slam/phpstan-extensions": "*",
+        "thecodingmachine/phpstan-strict-rules": "*"
+    }
+}
